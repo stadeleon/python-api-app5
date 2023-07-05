@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stations</title>
+</head>
+<body>
+
+<!--    <table>-->
+<!--        <tr style="border=2px">-->
+<!--            <th>Station ID</th>-->
+<!--            <th>Station Name</th>-->
+<!--        </tr>-->
+        {{ df[10:20][['STAID', 'STANAME                                 ']].to_html()|safe }}
+</body>
+</html>
